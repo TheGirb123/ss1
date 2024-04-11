@@ -1,0 +1,88 @@
+body{
+	width: 60vw;
+	height: 50vh;
+	background: #0e0e0e;
+
+}
+	main {
+					width: 34.7vw;
+					height: 63vh;
+					margin-top: 14.5%;
+					margin-left: 53.5%;
+					background: #e9e8e6;
+	}
+
+		section {
+				float: left;
+				width: 66%;
+				margin-left: 16.2%;
+		}
+			article{
+				float: left;
+			}
+
+
+			.y {
+				background-color: #fafe26;
+				height: 48.2%;
+				margin-top: 5.1%;
+			}
+
+			.dr {
+				background-color: #8e0f19;
+				height: 38.8%;
+				margin-top:0%;
+			}
+
+			.black {
+				background-color: #232317;
+				width: 75.5%;
+				height: 82%;
+				margin-top: 12.5%;
+				margin-left: 12.1%;
+			}
+
+			.o {
+				background-color: #f59c25;
+				width: 62.5%;
+				height: 49%;
+				margin-top: 13%;
+				margin-left: 18.7%;
+			}
+
+			.lr {
+				background-color: #c5041e;
+				width: 66.8%;
+				height: 48.7%;
+				margin-top: 16.8%;
+				margin-left: 16.6%;
+			}
+
+			.yl {
+				padding: auto;
+				margin-top: 3.2%;
+				margin-left: 3.6%;
+				height: 17%;
+				width: 92.8%;
+				background-color: #fafe26;
+
+			}
+
+			.blue {
+				padding: auto;
+				margin-top: 2.6%;
+				margin-left: 3%;
+				height: 17%;
+				width: 94.1%;
+				margin: /**1.6**/%;
+				background-color: #4c68c1;
+			}
+
+			.yl:hover {
+				background-color: #387612;
+			}
+
+			.blue:hover {
+				background-color: #915912;
+			}
+

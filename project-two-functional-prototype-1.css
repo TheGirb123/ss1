@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+main {
+	width: 1920px;
+	height: 1080px;
+  animation: color;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    0.00% { background-color: #D6C4FF;}
+   10.00% { background-color: #B3C8E8;}
+   20.00% { background-color: #D1FFFB;}
+   30.00% { background-color: #C3EECB;}
+   40.00% { background-color: #ECFFC4;}
+   50.00% { background-color: #C9CDF2;}
+   60.00% { background-color: #EAE3FC;}
+   70.00% { background-color: #E3DFE6;}
+   80.00% { background-color: #F9EFF8;}
+  100.00% { background-color: #F5C6CF;}
+}
+
+#vert {
+  display: inline-block;
+  animation: right-left-right; 
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+	}
+	
+@keyframes right-left-right {
+	0%		{transform: translateX(0px)}
+	33% 	{transform: translateX(-422.51px);}
+	66%		{transform: translateX(770px);}
+	100% 	{transform: translateX(0px);}
+}
+
+
+#hori {
+	display: inline-block;
+  	animation: up-down-up; 
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes up-down-up {
+	0%		{transform: translateY(0px)}
+	33% 	{transform: translateY(-365px);}
+	66%		{transform: translateY(360px);}
+	100% 	{transform: translateY(0px);}
+}
+
+/****/
+
+#bvert {
+  display: inline-block;
+  animation: left-right-left; 
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+	}
+	
+@keyframes left-right-left {
+	0%		{transform: translateX(0px)}
+	33% 	{transform: translateX(770px);}
+	66%		{transform: translateX(-422.51px);}
+	100% 	{transform: translateX(0px);}
+}
+
+
+#bhori {
+	display: inline-block;
+  	animation: down-up-down; 
+  	animation-duration: 5s;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes down-up-down {
+	0%		{transform: translateY(0px)}
+	33% 	{transform: translateY(360px);}
+	66%		{transform: translateY(-365px);}
+	100% 	{transform: translateY(0px);}
+}
